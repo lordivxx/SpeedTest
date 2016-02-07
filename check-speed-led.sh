@@ -1,6 +1,5 @@
 #!/bin/bash
 
 
-/home/pi/PiLed/led-on.py
+/home/pi/PiLed/led.py -t .15 -l 100 &
 /home/pi/speedtest/speedtest-csv >> /home/pi/speedtest/speedtest.log
-/home/pi/PiLed/led-off.py
